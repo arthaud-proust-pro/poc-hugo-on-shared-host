@@ -1,5 +1,5 @@
 ---
 visibleInCms: false
-type: "galleries"
+type: "posts"
 layout: list
 ---

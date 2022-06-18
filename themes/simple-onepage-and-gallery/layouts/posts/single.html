@@ -1,0 +1,13 @@
+{{ define "main" }}
+	<main id="gallery-container">
+        <a href="/posts">Posts</a>
+		<article>
+            <header>
+                <h1>{{ .Title }}</h1>
+            </header>
+            <main>
+                {{ .Content }}
+            </main>
+		</article>
+	</main>
+{{ end }}
