@@ -8,7 +8,7 @@ Environment vars to set on github:
 - SSH_PRIVATE_KEY // should be the private key of your server?
 - SSH_USER
 - SSH_HOST
-- SSH_POST
+- SSH_PORT
 - SSH_WORKDIR
 
 
