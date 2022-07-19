@@ -4,21 +4,6 @@ theme: 'simple-onepage-and-gallery'
 baseURL:
 removePathAccents: true
 
-params:
-  email: proust@arthaud.dev
-  phone: "07 83 39 28 88"
-  seo:
-    author: Arthaud
-    title: POC - Hugo on shared host
-    desc:
-    url:
-    hero: 
-    links:
-      github: https://github.com/arthaud-proust
-      linkedin: https://www.linkedin.com/in/arthaud-proust/
-      twitter: https://twitter.com/arthaud_proust
-      facebook: https://www.facebook.com/arthaudproust.fr
-      instagram: https://www.instagram.com/arthaudproust/
 
 menu:
   main:
@@ -28,11 +13,3 @@ menu:
       weight: 1
     
 taxonomies:
-    
-
-related:
-  includeNewer: true
-  toLower: true
-  indices:
-    - name: techno
-      weight: 1
