@@ -37,11 +37,13 @@ jobs:
 
       - name: Setup Node
         uses: actions/setup-node@v3
+        continue-on-error: true
         with:
           node-version: '16'
           cache: 'yarn'
 
       - name: Install JS dependencies
+        continue-on-error: true
         run: yarn install --frozen-lockfile
 
       - name: Build
