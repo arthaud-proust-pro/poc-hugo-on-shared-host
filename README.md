@@ -1,5 +1,5 @@
 # hugo-workflow-build
-Template to build hugo with github workflows on a build branch
+Template to build hugo and deploy it on a server by ssh 
 
 # Setting up
 Environment vars to set on github:
