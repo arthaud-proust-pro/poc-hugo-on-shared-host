@@ -5,11 +5,11 @@ Template to build hugo and deploy it on a server by ssh
 Environment vars to set on github:
 - HUGO_VERSION
 - HUGO_ENV
-- SSH_PRIVATE_KEY // should be the private key of your server?
+- SSH_PRIVATE_KEY // server should have pair public key in its authorized_keys file
 - SSH_USER
 - SSH_HOST
 - SSH_PORT
-- SSH_WORKDIR
+- SSH_WORKDIR // where builded files sould be copied
 
 
 # How it works
