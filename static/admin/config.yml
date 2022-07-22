@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   repo: arthaud-proust-rd/hugo-workflow-build
   branch: main
-  base_url: https://oauth.arthaud.dev
+  base_url: 'https://oauth.arthaud.dev'
 media_folder: 'assets/media'
 public_folder: '/media'
 locale: fr
