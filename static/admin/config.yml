@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: arthaud-proust-rd/hugo-workflow-build
   branch: main
   base_url: 'https://oauth.arthaud.dev'
