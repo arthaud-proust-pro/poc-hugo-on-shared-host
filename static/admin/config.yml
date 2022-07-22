@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: arthaud-proust-rd/hugo-workflow-build
-  branch: main
+  branch: production
   base_url: 'https://oauth.arthaud.dev'
 media_folder: 'assets/media'
 public_folder: '/media'
