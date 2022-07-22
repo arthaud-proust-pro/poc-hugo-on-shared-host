@@ -1,0 +1,23 @@
+backend:
+  name: git-gateway
+  repo: arthaud-proust-rd/hugo-workflow-build
+  branch: main
+  base_url: https://oauth.arthaud.dev
+media_folder: 'assets/media'
+public_folder: '/media'
+locale: fr
+slug:
+  encoding: ascii
+  clean_accents: true
+
+collections:
+  - name: posts
+    label: Posts
+    label_singular: Post
+    folder: content/posts
+    create: true
+    editor: { preview: false }
+    filter: {field: "visibleInCms", value: true}
+    fields:
+      - { label: "Visible", name: "visibleInCms", widget: hidden, default: true}
+      - { label: Titre, name: title }
